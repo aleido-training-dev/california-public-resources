@@ -1,0 +1,7 @@
+{
+  "ID": "420554b9-5bca-4388-bfb5-1bc945da673f",
+  "Name": "VCC California",
+  "Structure-Ref": "data/XML/meta.xml",
+  "Structure-Transformer": "XML-Interpreter/XSLT/course-structure.xsl",
+  "Structure-Loader": "XML-Interpreter/JS-Loader/coursedata-loader.js"
+}
