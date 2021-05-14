@@ -1,0 +1,93 @@
+{
+  "runtime_dir": "bin/runtime/Resources",
+  "preview_dir": "bin/runtime/Preview",
+  "temp_dir": "bin/runtime/temp",
+  "export_tmp_dir": "bin/runtime/export_tmp",
+  "resources": [
+    {
+      "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/SCORM-1.2.zip",
+      "Name": "SCORM-1.2"
+    },
+    {
+      "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/SCORM-2004.zip",
+      "Name": "SCORM-2004"
+    }
+  ],
+  "players": [
+    {
+      "ID": "Venice",
+      "Name": "Venice (Default)",
+      "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/Venice.zip",
+      "Map": {
+        "PlayerFiles": ["index.html", "assets"]
+      }
+    },
+    {
+      "ID": "LynkCo",
+      "Name": "Lynk&Co",
+      "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/LynkCo.zip",
+      "Map": {
+        "PlayerFiles": ["index.html", "assets"],
+        "Resources": [
+          {
+            "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/LynkCo-XML-Interpreter.zip",
+            "Name": "LynkCo-XML-Interpreter",
+            "Alias": "XML-Interpreter"
+          }
+        ]
+      }
+    },
+    {
+      "ID": "VCC",
+      "Name": "Volvo Cars",
+      "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/Volvo%20Cars%20CMS.zip",
+      "Map": {
+        "PlayerFiles": ["index.html", "assets"]
+      }
+    },
+    {
+      "ID": "VCC-CMS",
+      "Name": "Volvo Cars - CMS",
+      "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/Volvo%20Cars%20CMS.zip",
+      "Map": {
+        "PlayerFiles": ["index.html", "assets"],
+        "Resources": [
+          {
+            "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/Volvo-Cars-XML-Interpreter.zip",
+            "Name": "Volvo-Cars-XML-Interpreter",
+            "Alias": "XML-Interpreter"
+          },
+          {
+            "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/Volvo-Cars-courseJSON.json",
+            "Name": "Volvo-Cars-courseJSON.json",
+            "Alias": "courseJSON.json"
+          }
+        ],
+        "InsertInto": ["**/*.xml", "**/*.json"],
+        "Structure": [
+          {
+            "test": "^[0-9a-f]{32}-[0-9]+$",
+            "target": "data/XML"
+          },
+          {
+            "type": ".xml",
+            "target": "data/XML"
+          },
+          {
+            "type": ".zip",
+            "process": "unzip",
+            "target": "data"
+          }
+        ]
+      }
+    },
+    {
+      "ID": "VCC-Legacy",
+      "Name": "Volvo Cars - Legacy",
+      "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/Volvo-Cars-Legacy.zip",
+      "Map": {
+        "PlayerFiles": ["index.html", "assets", "loaders", "script", "style"]
+      }
+    }
+  ]
+}
