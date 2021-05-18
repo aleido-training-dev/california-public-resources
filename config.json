@@ -59,7 +59,7 @@
           },
           {
             "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/Volvo-Cars-courseJSON.json",
-            "Name": "Volvo-Cars-courseJSON.json",
+            "Name": "Volvo-Cars-courseJSON",
             "Alias": "courseJSON.json"
           }
         ],
