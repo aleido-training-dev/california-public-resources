@@ -1,8 +1,8 @@
 {
-  "runtime_dir": "bin/runtime/Resources",
-  "preview_dir": "bin/runtime/Preview",
-  "temp_dir": "bin/runtime/temp",
-  "export_tmp_dir": "bin/runtime/export_tmp",
+  "runtime_dir": "runtime/Resources",
+  "preview_dir": "runtime/Preview",
+  "temp_dir": "runtime/temp",
+  "export_tmp_dir": "runtime/export_tmp",
   "resources": [
     {
       "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/SCORM-1.2.zip",
