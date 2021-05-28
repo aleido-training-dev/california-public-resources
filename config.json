@@ -88,6 +88,14 @@
       "Map": {
         "PlayerFiles": ["index.html", "assets", "loaders", "script", "style"]
       }
+    },
+    {
+      "ID": "AGCO",
+      "Name": "AGCO",
+      "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/AGCO.zip",
+      "Map": {
+        "PlayerFiles": ["index.html", "assets", "style", "XML-transformers"]
+      }
     }
   ]
 }
