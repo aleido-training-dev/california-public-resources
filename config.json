@@ -94,7 +94,13 @@
       "Name": "AGCO",
       "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/AGCO.zip",
       "Map": {
-        "PlayerFiles": ["index.html", "assets", "style", "XML-transformers"]
+        "PlayerFiles": ["index.html", "assets", "style", "XML-transformers"],
+        "Resources": [
+          {
+            "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/AGCO-courseJSON.json",
+            "Name": "AGCO-courseJSON",
+            "Alias": "courseJSON.json"
+          }]
       }
     }
   ]
