@@ -107,7 +107,7 @@
           },
           {
             "type": "xml",
-            "target": "data/XML"
+            "target": "data"
           },
           {
             "type": "images",
