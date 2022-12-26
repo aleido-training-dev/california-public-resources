@@ -102,10 +102,6 @@
         "InsertInto": ["**/*.xml", "**/*.json"],
         "Structure": [
           {
-            "test": "^[0-9a-f]{32}-[0-9]+$",
-            "target": "data/XML"
-          },
-          {
             "type": ".xml",
             "target": "data/XML"
           },
