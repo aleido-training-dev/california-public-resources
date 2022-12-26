@@ -106,6 +106,18 @@
             "target": "data/XML"
           },
           {
+            "type": "xml",
+            "target": "data/XML"
+          },
+          {
+            "type": "images",
+            "target": "data"
+          },
+          {
+            "type": "videos",
+            "target": "data"
+          },
+          {
             "type": ".zip",
             "process": "unzip",
             "target": "data"
