@@ -126,6 +126,50 @@
       }
     },
     {
+      "ID": "Renault",
+      "Name": "Renault - Kentucky",
+      "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/Renault.zip",
+      "Map": {
+        "PlayerFiles": ["index.html", "assets"],
+        "Resources": [
+          {
+            "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/Renault-XML-Interpreter.zip",
+            "Name": "Renault-XML-Interpreter",
+            "Alias": "XML-Interpreter"
+          },
+          {
+            "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/Renault-courseJSON.json",
+            "Name": "Renault-courseJSON",
+            "Alias": "courseJSON.json"
+          }
+        ],
+        "InsertInto": ["**/*.xml", "**/*.json"],
+        "Structure": [
+          {
+            "type": ".xml",
+            "target": "data/XML"
+          },
+          {
+            "type": "xml",
+            "target": "data"
+          },
+          {
+            "type": "images",
+            "target": "data"
+          },
+          {
+            "type": "videos",
+            "target": "data"
+          },
+          {
+            "type": ".zip",
+            "process": "unzip",
+            "target": "data"
+          }
+        ]
+      }
+    },
+    {
       "ID": "VCC-Legacy",
       "Name": "Volvo Cars - Legacy",
       "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/Volvo-Cars-Legacy.zip",
