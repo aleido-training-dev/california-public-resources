@@ -126,6 +126,50 @@
       }
     },
     {
+      "ID": "AB Volvo",
+      "Name": "AB Volvo (Legacy) - Kentucky",
+      "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/AB-Volvo-legacy.zip",
+      "Map": {
+        "PlayerFiles": ["index.html", "assets"],
+        "Resources": [
+          {
+            "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/AB-Volvo-XML-Interpreter.zip",
+            "Name": "AB-Volvo-XML-Interpreter",
+            "Alias": "XML-Interpreter"
+          },
+          {
+            "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/AB-Volvo-courseJSON.json",
+            "Name": "AB-Volvo-courseJSON",
+            "Alias": "courseJSON.json"
+          }
+        ],
+        "InsertInto": ["**/*.xml", "**/*.json"],
+        "Structure": [
+          {
+            "type": ".xml",
+            "target": "data/XML"
+          },
+          {
+            "type": "xml",
+            "target": "data"
+          },
+          {
+            "type": "images",
+            "target": "data"
+          },
+          {
+            "type": "videos",
+            "target": "data"
+          },
+          {
+            "type": ".zip",
+            "process": "unzip",
+            "target": "data"
+          }
+        ]
+      }
+    },
+    {
       "ID": "Renault",
       "Name": "Renault - Kentucky",
       "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/Renault.zip",
