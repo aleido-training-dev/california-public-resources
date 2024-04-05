@@ -99,7 +99,7 @@
             "Alias": "courseJSON.json"
           },
           {
-            "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/AB-Volvo-courseJSON.json",
+            "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/AB-Volvo-languages.json",
             "Name": "AB-Volvo-languages",
             "Alias": "languages.json"
           }
