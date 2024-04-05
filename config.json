@@ -97,8 +97,14 @@
             "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/AB-Volvo-courseJSON.json",
             "Name": "AB-Volvo-courseJSON",
             "Alias": "courseJSON.json"
+          },
+          {
+            "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/AB-Volvo-courseJSON.json",
+            "Name": "AB-Volvo-languages",
+            "Alias": "languages.json"
           }
         ],
+        "languagePattern": "_[a-z]{2}-[A-Z]{2}",
         "InsertInto": ["**/*.xml", "**/*.json"],
         "Structure": [
           {
@@ -126,7 +132,7 @@
       }
     },
     {
-      "ID": "AB Volvo",
+      "ID": "AB Volvo Legacy",
       "Name": "AB Volvo (Legacy) - Kentucky",
       "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/AB-Volvo-legacy.zip",
       "Map": {
