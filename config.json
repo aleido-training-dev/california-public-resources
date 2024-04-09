@@ -104,7 +104,7 @@
             "Alias": "languages.json"
           }
         ],
-        "LanguagePattern": "^S\\d{6}.*_[a-z]{2}-[A-Z]{2}",
+        "LanguagePattern": "S\\d{6}.*_[a-z]{2}-[A-Z]{2}",
         "InsertInto": ["**/*.xml", "**/*.json"],
         "Structure": [
           {
