@@ -106,6 +106,7 @@
         ],
         "PacketIDPattern": "^S\\d{6}",
         "LanguagePattern": "{PacketIDPattern}.*_[a-z]{2}-[A-Z]{2}",
+        "FileNamePattern": "{PacketIDPattern}.*{LanguagePattern}",
         "InsertInto": ["**/*.xml", "**/*.json"],
         "Structure": [
           {
