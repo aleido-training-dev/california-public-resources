@@ -141,8 +141,8 @@
         "PlayerFiles": ["index.html", "assets"],
         "Resources": [
           {
-            "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/AB-Volvo-XML-Interpreter.zip",
-            "Name": "AB-Volvo-XML-Interpreter",
+            "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/AB-Volvo-Legacy-XML-Interpreter.zip",
+            "Name": "AB-Volvo-Legacy-XML-Interpreter",
             "Alias": "XML-Interpreter"
           },
           {
