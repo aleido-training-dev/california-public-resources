@@ -149,8 +149,16 @@
             "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/AB-Volvo-courseJSON.json",
             "Name": "AB-Volvo-courseJSON",
             "Alias": "courseJSON.json"
+          },
+          {
+            "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/AB-Volvo-languages.json",
+            "Name": "AB-Volvo-languages",
+            "Alias": "languages.json"
           }
         ],
+        "PacketIDPattern": "^S\\d{6}",
+        "LanguagePattern": "[a-z]{2}-[A-Z]{2}",
+        "FileNamePattern": "{PacketIDPattern}.*_{LanguagePattern}\\.zip$",
         "InsertInto": ["**/*.xml", "**/*.json"],
         "Structure": [
           {
@@ -193,8 +201,16 @@
             "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/Renault-courseJSON.json",
             "Name": "Renault-courseJSON",
             "Alias": "courseJSON.json"
+          },
+          {
+            "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/AB-Volvo-languages.json",
+            "Name": "Renault-languages",
+            "Alias": "languages.json"
           }
         ],
+        "PacketIDPattern": "^S\\d{6}",
+        "LanguagePattern": "[a-z]{2}-[A-Z]{2}",
+        "FileNamePattern": "{PacketIDPattern}.*_{LanguagePattern}\\.zip$",
         "InsertInto": ["**/*.xml", "**/*.json"],
         "Structure": [
           {
