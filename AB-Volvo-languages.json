@@ -115,6 +115,11 @@
         "disabled": true
       },
       {
+        "label": "بهاس ملايو",
+        "value": "ms-MY",
+        "disabled": true
+      },
+      {
         "label": "Nederlands",
         "value": "nl-NL",
         "disabled": true
