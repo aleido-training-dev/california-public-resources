@@ -157,8 +157,8 @@
           }
         ],
         "PacketIDPattern": "^S\\d{6}",
-        "LanguagePattern": "([a-z]{2})-([A-Za-z]+-)?([A-Z]{2})",
-        "FileNamePattern": "{PacketIDPattern}.*_{LanguagePattern}\\.zip$",
+        "LanguagePattern": "([a-z]{2})-([A-Za-z]+-)?([A-Z]{2}).zip$",
+        "FileNamePattern": "{PacketIDPattern}.*_{LanguagePattern}$",
         "InsertInto": ["**/*.xml", "**/*.json"],
         "Structure": [
           {
@@ -209,8 +209,8 @@
           }
         ],
         "PacketIDPattern": "^S\\d{6}",
-        "LanguagePattern": "([a-z]{2})-([A-Za-z]+-)?([A-Z]{2})",
-        "FileNamePattern": "{PacketIDPattern}.*_{LanguagePattern}\\.zip$",
+        "LanguagePattern": "([a-z]{2})-([A-Za-z]+-)?([A-Z]{2}).zip$",
+        "FileNamePattern": "{PacketIDPattern}.*_{LanguagePattern}$",
         "InsertInto": ["**/*.xml", "**/*.json"],
         "Structure": [
           {
