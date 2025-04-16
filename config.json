@@ -126,7 +126,7 @@
             "target": "data"
           },
           {
-            "type": "vtt",
+            "type": "tracks",
             "target": "data"
           },
           {
@@ -182,7 +182,7 @@
             "target": "data"
           },
           {
-            "type": "vtt",
+            "type": "tracks",
             "target": "data"
           },
           {
@@ -238,7 +238,7 @@
             "target": "data"
           },
           {
-            "type": "vtt",
+            "type": "tracks",
             "target": "data"
           },
           {
