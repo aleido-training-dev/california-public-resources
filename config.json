@@ -146,17 +146,17 @@
         "Resources": [
           {
             "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/AB-Volvo-2026-XML-Interpreter.zip",
-            "Name": "AB-Volvo-XML-Interpreter",
+            "Name": "AB-Volvo-2026-XML-Interpreter",
             "Alias": "XML-Interpreter"
           },
           {
             "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/AB-Volvo-2026-courseJSON.json",
-            "Name": "AB-Volvo-courseJSON",
+            "Name": "AB-Volvo-2026-courseJSON",
             "Alias": "courseJSON.json"
           },
           {
             "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/AB-Volvo-2026-languages.json",
-            "Name": "AB-Volvo-languages",
+            "Name": "AB-Volvo-2026-languages",
             "Alias": "languages.json"
           }
         ],
