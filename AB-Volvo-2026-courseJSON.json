@@ -1,0 +1,7 @@
+{
+  "ID": "${ID}",
+  "Name": "${NAME}",
+  "Structure-Ref": "data/xml/structure.xml", 
+  "Structure-Transformer": "XML-Interpreter/XSLT/course-structure.xsl",
+  "Structure-Loader": "XML-Interpreter/JS-Loader/coursedata-loader.js"
+}

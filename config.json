@@ -137,6 +137,62 @@
         ]
       }
     },
+        {
+      "ID": "AB Volvo 2026",
+      "Name": "AB Volvo 2026 - Kentucky",
+      "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/AB-Volvo-2026.zip",
+      "Map": {
+        "PlayerFiles": ["index.html", "assets"],
+        "Resources": [
+          {
+            "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/AB-Volvo-2026-XML-Interpreter.zip",
+            "Name": "AB-Volvo-XML-Interpreter",
+            "Alias": "XML-Interpreter"
+          },
+          {
+            "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/AB-Volvo-2026-courseJSON.json",
+            "Name": "AB-Volvo-courseJSON",
+            "Alias": "courseJSON.json"
+          },
+          {
+            "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/AB-Volvo-2026-languages.json",
+            "Name": "AB-Volvo-languages",
+            "Alias": "languages.json"
+          }
+        ],
+        "PacketIDPattern": "^S\\d{6}",
+        "LanguagePattern": "([a-z]{2})-([A-Za-z]+-)?([A-Z]{2}).zip$",
+        "FileNamePattern": "{PacketIDPattern}.*_{LanguagePattern}$",
+        "InsertInto": ["**/*.xml", "**/*.json"],
+        "Structure": [
+          {
+            "type": ".xml",
+            "target": "data/XML"
+          },
+          {
+            "type": "xml",
+            "target": "data"
+          },
+          {
+            "type": "images",
+            "target": "data"
+          },
+          {
+            "type": "videos",
+            "target": "data"
+          },
+          {
+            "type": "tracks",
+            "target": "data"
+          },
+          {
+            "type": ".zip",
+            "process": "unzip",
+            "target": "data"
+          }
+        ]
+      }
+    },
     {
       "ID": "AB Volvo Legacy",
       "Name": "AB Volvo (Legacy) - Kentucky",

@@ -1,0 +1,209 @@
+{
+	"Language": {
+		"label": "Select language",
+		"type": "selectone",
+		"default": ["en-GB"],
+		"values": [
+			{
+				"label": "اَلْعَرَبِيَّةُ",
+				"value": "ar-SA",
+				"disabled": true
+			},
+			{
+				"label": "български",
+				"value": "bg-BG",
+				"disabled": true
+			},
+			{
+				"label": "Český",
+				"value": "cs-CZ",
+				"disabled": true
+			},
+			{
+				"label": "Dansk",
+				"value": "da-DK",
+				"disabled": true
+			},
+			{
+				"label": "Deutsch",
+				"value": "de-DE",
+				"disabled": true
+			},
+			{
+				"label": "Eesti",
+				"value": "et-EE",
+				"disabled": true
+			},
+			{
+				"label": "Ελληνικά",
+				"value": "el-GR",
+				"disabled": true
+			},
+			{
+				"label": "English",
+				"value": "en-GB",
+				"disabled": false
+			},
+			{
+				"label": "English US",
+				"value": "en-US",
+				"disabled": true
+			},
+			{
+				"label": "Español",
+				"value": "es-ES",
+				"disabled": true
+			},
+			{
+				"label": "فارسی",
+				"value": "fa-IR",
+				"disabled": true
+			},
+			{
+				"label": "Suomi",
+				"value": "fi-FI",
+				"disabled": true
+			},
+			{
+				"label": "Français",
+				"value": "fr-FR",
+				"disabled": true
+			},
+			{
+				"label": "&#1506;&#1489;&#1512;&#1497;&#1514;&#8206;",
+				"value": "he-IL",
+				"disabled": true
+			},
+			{
+				"label": "Hrvatski",
+				"value": "hr-HR",
+				"disabled": true
+			},
+			{
+				"label": "Magyar",
+				"value": "hu-HU",
+				"disabled": true
+			},
+			{
+				"label": "Bahasa Indonesia",
+				"value": "id-ID",
+				"disabled": true
+			},
+			{
+				"label": "Italiano",
+				"value": "it-IT",
+				"disabled": true
+			},
+			{
+				"label": "日本語",
+				"value": "ja-JP",
+				"disabled": true
+			},
+			{
+				"label": "한국어",
+				"value": "ko-KR",
+				"disabled": true
+			},
+			{
+				"label": "Lietuvių",
+				"value": "lt-LT",
+				"disabled": true
+			},
+			{
+				"label": "Latviešu",
+				"value": "lv-LV",
+				"disabled": true
+			},
+			{
+				"label": "Melayu",
+				"value": "ms-MY",
+				"disabled": true
+			},
+			{
+				"label": "Nederlands",
+				"value": "nl-NL",
+				"disabled": true
+			},
+			{
+				"label": "Norsk Bokmål",
+				"value": "nb-NO",
+				"disabled": true
+			},
+			{
+				"label": "Polski",
+				"value": "pl-PL",
+				"disabled": true
+			},
+			{
+				"label": "Português brasileiro",
+				"value": "pt-BR",
+				"disabled": true
+			},
+			{
+				"label": "Português",
+				"value": "pt-PT",
+				"disabled": true
+			},
+			{
+				"label": "Română",
+				"value": "ro-RO",
+				"disabled": true
+			},
+			{
+				"label": "Русский",
+				"value": "ru-RU",
+				"disabled": true
+			},
+			{
+				"label": "Slovenský",
+				"value": "sk-SK",
+				"disabled": true
+			},
+			{
+				"label": "Slovenščina",
+				"value": "sl-SI",
+				"disabled": true
+			},
+			{
+				"label": "Српски",
+				"value": "sr",
+				"disabled": true
+			},
+			{
+				"label": "Srpski",
+				"value": "sr-Latn-RS",
+				"disabled": true
+			},
+			{
+				"label": "Svenska",
+				"value": "sv-SE",
+				"disabled": true
+			},
+			{
+				"label": "ภาษาไทย",
+				"value": "th-TH",
+				"disabled": true
+			},
+			{
+				"label": "Türkçe",
+				"value": "tr-TR",
+				"disabled": true
+			},
+			{
+				"label": "українська",
+				"value": "uk-UA",
+				"disabled": true
+			},
+			{
+				"label": "简体",
+				"value": "zh-CN",
+				"disabled": true
+			},
+			{
+				"label": "臺灣華語",
+				"value": "zh-TW",
+				"disabled": true
+			}
+		]
+	}
+}
