@@ -5,11 +5,11 @@
   "export_tmp_dir": "runtime/export_tmp",
   "resources": [
     {
-      "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/SCORM-1.2.zip",
+      "Source": "https://raw.githubusercontent.com/aleido-training-dev/california-public-resources/refs/heads/master/SCORM-1.2.zip",
       "Name": "SCORM-1.2"
     },
     {
-      "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/SCORM-2004.zip",
+      "Source": "https://raw.githubusercontent.com/aleido-training-dev/california-public-resources/refs/heads/master/SCORM-2004.zip",
       "Name": "SCORM-2004"
     }
   ],
@@ -17,7 +17,7 @@
     {
       "ID": "Venice",
       "Name": "Venice (Default)",
-      "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/Venice.zip",
+      "Source": "https://raw.githubusercontent.com/aleido-training-dev/california-public-resources/refs/heads/master/Venice.zip",
       "Map": {
         "PlayerFiles": ["index.html", "assets"]
       }
@@ -25,12 +25,12 @@
     {
       "ID": "LynkCo",
       "Name": "Lynk&Co",
-      "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/LynkCo.zip",
+      "Source": "https://raw.githubusercontent.com/aleido-training-dev/california-public-resources/refs/heads/master/LynkCo.zip",
       "Map": {
         "PlayerFiles": ["index.html", "assets"],
         "Resources": [
           {
-            "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/LynkCo-XML-Interpreter.zip",
+            "Source": "https://raw.githubusercontent.com/aleido-training-dev/california-public-resources/refs/heads/master/LynkCo-XML-Interpreter.zip",
             "Name": "LynkCo-XML-Interpreter",
             "Alias": "XML-Interpreter"
           }
@@ -40,7 +40,7 @@
     {
       "ID": "VCC",
       "Name": "Volvo Cars",
-      "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/Volvo%20Cars%20CMS.zip",
+      "Source": "https://raw.githubusercontent.com/aleido-training-dev/california-public-resources/refs/heads/master/Volvo%20Cars%20CMS.zip",
       "Map": {
         "PlayerFiles": ["index.html", "assets"]
       }
@@ -48,17 +48,17 @@
     {
       "ID": "VCC-CMS",
       "Name": "Volvo Cars - CMS",
-      "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/Volvo%20Cars%20CMS.zip",
+      "Source": "https://raw.githubusercontent.com/aleido-training-dev/california-public-resources/refs/heads/master/Volvo%20Cars%20CMS.zip",
       "Map": {
         "PlayerFiles": ["index.html", "assets"],
         "Resources": [
           {
-            "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/Volvo-Cars-XML-Interpreter.zip",
+            "Source": "https://raw.githubusercontent.com/aleido-training-dev/california-public-resources/refs/heads/master/Volvo-Cars-XML-Interpreter.zip",
             "Name": "Volvo-Cars-XML-Interpreter",
             "Alias": "XML-Interpreter"
           },
           {
-            "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/Volvo-Cars-courseJSON.json",
+            "Source": "https://raw.githubusercontent.com/aleido-training-dev/california-public-resources/refs/heads/master/Volvo-Cars-courseJSON.json",
             "Name": "Volvo-Cars-courseJSON",
             "Alias": "courseJSON.json"
           }
@@ -84,22 +84,22 @@
     {
       "ID": "AB Volvo",
       "Name": "AB Volvo - Kentucky",
-      "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/AB-Volvo.zip",
+      "Source": "https://raw.githubusercontent.com/aleido-training-dev/california-public-resources/refs/heads/master/AB-Volvo.zip",
       "Map": {
         "PlayerFiles": ["index.html", "assets"],
         "Resources": [
           {
-            "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/AB-Volvo-XML-Interpreter.zip",
+            "Source": "https://raw.githubusercontent.com/aleido-training-dev/california-public-resources/refs/heads/master/AB-Volvo-XML-Interpreter.zip",
             "Name": "AB-Volvo-XML-Interpreter",
             "Alias": "XML-Interpreter"
           },
           {
-            "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/AB-Volvo-courseJSON.json",
+            "Source": "https://raw.githubusercontent.com/aleido-training-dev/california-public-resources/refs/heads/master/AB-Volvo-courseJSON.json",
             "Name": "AB-Volvo-courseJSON",
             "Alias": "courseJSON.json"
           },
           {
-            "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/AB-Volvo-languages.json",
+            "Source": "https://raw.githubusercontent.com/aleido-training-dev/california-public-resources/refs/heads/master/AB-Volvo-languages.json",
             "Name": "AB-Volvo-languages",
             "Alias": "languages.json"
           }
@@ -140,22 +140,22 @@
         {
       "ID": "AB Volvo 2026",
       "Name": "AB Volvo 2026 - Kentucky",
-      "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/AB-Volvo-2026.zip",
+      "Source": "https://raw.githubusercontent.com/aleido-training-dev/california-public-resources/refs/heads/master/AB-Volvo-2026.zip",
       "Map": {
         "PlayerFiles": ["index.html", "assets"],
         "Resources": [
           {
-            "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/AB-Volvo-2026-XML-Interpreter.zip",
+            "Source": "https://raw.githubusercontent.com/aleido-training-dev/california-public-resources/refs/heads/master/AB-Volvo-2026-XML-Interpreter.zip",
             "Name": "AB-Volvo-2026-XML-Interpreter",
             "Alias": "XML-Interpreter"
           },
           {
-            "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/AB-Volvo-2026-courseJSON.json",
+            "Source": "https://raw.githubusercontent.com/aleido-training-dev/california-public-resources/refs/heads/master/AB-Volvo-2026-courseJSON.json",
             "Name": "AB-Volvo-2026-courseJSON",
             "Alias": "courseJSON.json"
           },
           {
-            "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/AB-Volvo-2026-languages.json",
+            "Source": "https://raw.githubusercontent.com/aleido-training-dev/california-public-resources/refs/heads/master/AB-Volvo-2026-languages.json",
             "Name": "AB-Volvo-2026-languages",
             "Alias": "languages.json"
           }
@@ -196,22 +196,22 @@
     {
       "ID": "AB Volvo Legacy",
       "Name": "AB Volvo (Legacy) - Kentucky",
-      "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/AB-Volvo-legacy.zip",
+      "Source": "https://raw.githubusercontent.com/aleido-training-dev/california-public-resources/refs/heads/master/AB-Volvo-legacy.zip",
       "Map": {
         "PlayerFiles": ["index.html", "assets"],
         "Resources": [
           {
-            "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/AB-Volvo-Legacy-XML-Interpreter.zip",
+            "Source": "https://raw.githubusercontent.com/aleido-training-dev/california-public-resources/refs/heads/master/AB-Volvo-Legacy-XML-Interpreter.zip",
             "Name": "AB-Volvo-Legacy-XML-Interpreter",
             "Alias": "XML-Interpreter"
           },
           {
-            "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/AB-Volvo-courseJSON.json",
+            "Source": "https://raw.githubusercontent.com/aleido-training-dev/california-public-resources/refs/heads/master/AB-Volvo-courseJSON.json",
             "Name": "AB-Volvo-courseJSON",
             "Alias": "courseJSON.json"
           },
           {
-            "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/AB-Volvo-languages.json",
+            "Source": "https://raw.githubusercontent.com/aleido-training-dev/california-public-resources/refs/heads/master/AB-Volvo-languages.json",
             "Name": "AB-Volvo-languages",
             "Alias": "languages.json"
           }
@@ -252,22 +252,22 @@
     {
       "ID": "Renault",
       "Name": "Renault - Kentucky",
-      "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/Renault.zip",
+      "Source": "https://raw.githubusercontent.com/aleido-training-dev/california-public-resources/refs/heads/master/Renault.zip",
       "Map": {
         "PlayerFiles": ["index.html", "assets"],
         "Resources": [
           {
-            "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/Renault-XML-Interpreter.zip",
+            "Source": "https://raw.githubusercontent.com/aleido-training-dev/california-public-resources/refs/heads/master/Renault-XML-Interpreter.zip",
             "Name": "Renault-XML-Interpreter",
             "Alias": "XML-Interpreter"
           },
           {
-            "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/Renault-courseJSON.json",
+            "Source": "https://raw.githubusercontent.com/aleido-training-dev/california-public-resources/refs/heads/master/Renault-courseJSON.json",
             "Name": "Renault-courseJSON",
             "Alias": "courseJSON.json"
           },
           {
-            "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/AB-Volvo-languages.json",
+            "Source": "https://raw.githubusercontent.com/aleido-training-dev/california-public-resources/refs/heads/master/AB-Volvo-languages.json",
             "Name": "Renault-languages",
             "Alias": "languages.json"
           }
@@ -308,7 +308,7 @@
     {
       "ID": "VCC-Legacy",
       "Name": "Volvo Cars - Legacy",
-      "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/Volvo-Cars-Legacy.zip",
+      "Source": "https://raw.githubusercontent.com/aleido-training-dev/california-public-resources/refs/heads/master/Volvo-Cars-Legacy.zip",
       "Map": {
         "PlayerFiles": ["index.html", "assets", "loaders", "script", "style"]
       }
@@ -316,12 +316,12 @@
     {
       "ID": "AGCO",
       "Name": "AGCO",
-      "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/AGCO.zip",
+      "Source": "https://raw.githubusercontent.com/aleido-training-dev/california-public-resources/refs/heads/master/AGCO.zip",
       "Map": {
         "PlayerFiles": ["index.html", "assets", "style", "data", "XML-transformers"],
         "Resources": [
           {
-            "Source": "https://bitbucket.org/california-public-resources/california-downloads/raw/HEAD/AGCO-courseJSON.json",
+            "Source": "https://raw.githubusercontent.com/aleido-training-dev/california-public-resources/refs/heads/master/AGCO-courseJSON.json",
             "Name": "AGCO-courseJSON",
             "Alias": "courseJSON.json"
           }],
