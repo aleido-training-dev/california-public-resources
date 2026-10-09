@@ -142,7 +142,7 @@
       "Name": "AB Volvo 2026 - Kentucky",
       "Source": "https://raw.githubusercontent.com/aleido-training-dev/california-public-resources/refs/heads/master/AB-Volvo-2026.zip",
       "Map": {
-        "PlayerFiles": ["index.html", "assets"],
+        "PlayerFiles": ["index.html", "assets", "static"],
         "Resources": [
           {
             "Source": "https://raw.githubusercontent.com/aleido-training-dev/california-public-resources/refs/heads/master/AB-Volvo-2026-XML-Interpreter.zip",
